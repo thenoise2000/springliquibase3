@@ -27,7 +27,7 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: tehnoise2000/spring-boot-image
+          image: thenoise2000/spring-boot-image
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
